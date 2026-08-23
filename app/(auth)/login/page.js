@@ -16,8 +16,12 @@ export default function LoginPage() {
             />
           </div>
           <div>
-            <div className="font-bold uppercase text-[#f7f0fa]">Stockly Store</div>
-            <div className="text-xs text-[#8A7B6C]">Powered by Stockly Inc.</div>
+            <div className="font-bold uppercase text-[#f7f0fa]">
+              Stockly Store
+            </div>
+            <div className="text-xs text-[#8A7B6C]">
+              Powered by Stockly Inc.
+            </div>
           </div>
         </div>
 
