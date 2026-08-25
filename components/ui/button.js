@@ -14,8 +14,8 @@ export default function Button({
     <button
       disabled={disabled}
       className={`
-        ${baseStyles} 
-        ${variant === "outline" ? outlineStyles : ""} 
+        ${baseStyles}
+        ${variant === "outline" ? outlineStyles : ""}
         ${className}
       `}
       {...props}

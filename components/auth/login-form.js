@@ -1,5 +1,4 @@
 "use client";
-
 import Button from "@/components/ui/button";
 import Input from "@/components/ui/input";
 import { Eye } from "lucide-react";
@@ -49,7 +48,7 @@ export default function LoginForm() {
                 Keep me logged in
               </label>
             </div>
-            <div className="text-md text-[#5f07d9] hover:text-[#643c9c] cursor-pointer">
+            <div className="text-md font-semibold text-[#5f07d9] hover:text-[#643c9c] cursor-pointer">
               Forgot password?
             </div>
           </div>
