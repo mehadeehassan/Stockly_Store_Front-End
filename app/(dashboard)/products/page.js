@@ -1,8 +1,8 @@
 "use client";
 
-import { Plus, Upload } from "lucide-react";
 import ProductFilter from "@/components/products/product-filter";
 import ProductTable from "@/components/products/product-table";
+import { Plus, Upload } from "lucide-react";
 // Modal components standard imports
 // import ProductForm from "@/components/products/product-form";
 // import StockAdjustment from "@/components/inventory/stock-adjustment";
@@ -24,9 +24,7 @@ export default function ProductsPage() {
       <div className="mb-6 flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-semibold text-[#241C14]">Products</h1>
-          <p className="mt-0.5 text-sm text-[#8A7B6C]">
-            {PRODUCTS.length} total products
-          </p>
+          <p className="mt-0.5 text-sm text-[#8A7B6C]">{PRODUCTS.length} total products</p>
         </div>
         <div className="flex gap-2">
           <button className="flex items-center gap-2 rounded-xl border border-[#ECE3D8] bg-white px-4 py-2.5 text-sm font-medium text-[#241C14] hover:bg-gray-50">
