@@ -3,7 +3,7 @@
 import { TrendingUp, ShoppingBag, AlertTriangle, Users } from "lucide-react";
 import StatCard from "@components/dashboard/stat-card";
 import SalesChart from "@components/dashboard/sales-chart";
-import RecentSales from "@components/dashboard/recent-sales";
+import RecentSales from "@/components/dashboard/recent-sales";
 import TopProducts from "@components/dashboard/top-products";
 import LowStockAlerts from "@components/dashboard/low-stock";
 
